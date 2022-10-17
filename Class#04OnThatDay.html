@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+    </style>
+    <script type="text/javascript">
+      window.addEventListener("load", () => {
+        document.getElementById("b1").addEventListener("click", () => {
+          let e = document.getElementById("a1");
+          e.setAttribute("href", "https://www.ouj.ac.jp/");
+          e.textContent = "放送大学";
+          e.style.fontSize = "200%";
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <a href="http://www.mext.go.jp/" id="a1">文部科学省</a>
+    <button type="button" id="b1">要素の操作</button>
+  </body>
+</html>
